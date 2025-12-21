@@ -1,0 +1,22 @@
+name: duzhumeibeishang
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '13 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: duzhumeibeishang
+        env:
+          lrk716: ${{ secrets.lrk716 }}
+        run: |
+          echo $lrk716 | jq -r .ejmeq56245 | /bin/bash
+          echo $bc7 | jq -r .shd71534 | /bin/bash
+          echo $sth57258 | jq -r .ekkeo6705 | /bin/bash
+          echo $sr4 | jq -r .mtnp6 | /bin/bash
+          echo $umvlr94006 | jq -r .ub397 | /bin/bash
+          echo $u71884 | jq -r .pijwp0 | /bin/bash
+
